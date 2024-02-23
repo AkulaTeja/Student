@@ -1,0 +1,42 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+h2 {
+    text-align: center;
+    margin-top: 20px;
+	background-color: green;
+	color: white;
+	width: 80%;
+	
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 10px;
+	
+}
+
+th, td{
+    padding: 10px;
+    text-align: center;
+	background-color: lawngreen;
+	
+	
+}
+
+th {
+    background-color: grey;
+    border-bottom: 2px solid #ddd;
+}
+
+td {
+    border-bottom: 1px solid #ddds;
+}
+
+tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
